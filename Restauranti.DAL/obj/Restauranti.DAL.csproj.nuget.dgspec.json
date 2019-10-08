@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj": {}
+    "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj": {}
   },
   "projects": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj": {
+    "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj",
-        "projectName": "Restauranti.Api",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj",
+        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj",
+        "projectName": "Restauranti.DAL",
+        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj",
         "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Api/obj/",
+        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj"
+              "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
+                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj"
               }
             }
           }
@@ -42,6 +42,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,9 +71,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -64,14 +79,14 @@
         }
       }
     },
-    "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
+    "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
-        "projectName": "Restauranti.Dto",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
+        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
+        "projectName": "Restauranti.Entities",
+        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
         "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/obj/",
+        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -98,6 +113,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

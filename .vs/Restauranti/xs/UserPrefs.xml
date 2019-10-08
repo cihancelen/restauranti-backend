@@ -1,23 +1,15 @@
 ﻿<Properties StartupConfiguration="{40B6699F-A36E-47F9-B408-9AF6DC83583C}|Default">
-  <MonoDevelop.Ide.ItemProperties.Restauranti.DataAccess PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Restauranti.Api/Startup.cs">
-    <Files>
-      <File FileName="Restauranti.Api/Startup.cs" Line="30" Column="73" />
-      <File FileName="Restauranti.DataAccess/RestaurantiContext.cs" Line="18" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" expanded="True">
-            <Node name="Restauranti.Api" expanded="True">
-              <Node name="Startup.cs" selected="True" />
-            </Node>
-            <Node name="Restauranti.Entities" expanded="True" />
-          </Node>
+          <Node name="Restauranti" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Restauranti.BLL FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Restauranti.DAL FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Restauranti.Dto\Restauranti.Dto.csproj" />
+    <ProjectReference Include="..\Restauranti.Entities\Restauranti.Entities.csproj" />
+    <ProjectReference Include="..\Restauranti.DAL\Restauranti.DAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="4.1.0" />
+  </ItemGroup>
 </Project>
