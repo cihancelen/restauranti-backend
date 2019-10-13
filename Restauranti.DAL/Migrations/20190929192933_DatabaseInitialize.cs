@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Restauranti.DataAccess.Migrations
+namespace Restauranti.DAL.Migrations
 {
     public partial class DatabaseInitialize : Migration
     {

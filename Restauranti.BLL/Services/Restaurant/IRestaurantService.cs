@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Restauranti.Dto.Models.Restaurant;
 
-namespace Restauranti.Service.Services.Restaurant
+namespace Restauranti.BLL.Services.Restaurant
 {
     public interface IRestaurantService
     {

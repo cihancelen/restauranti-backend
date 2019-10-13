@@ -3,7 +3,7 @@ using System.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 
-namespace Restauranti.DataAccess.Helpers
+namespace Restauranti.DAL.Helpers
 {
     public class DatabaseHelper
     {

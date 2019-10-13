@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Restauranti.DataAccess.Repositories.Abstract;
+using Restauranti.DAL.Repositories.Abstract;
 using Restauranti.Entities.Models;
-using Restauranti.DataAccess.Helpers;
+using Restauranti.DAL.Helpers;
 using Dapper;
 
-namespace Restauranti.DataAccess.Repositories.Concrete
+namespace Restauranti.DAL.Repositories.Concrete
 {
     public class RestaurantRepository : BaseRepository<Restaurant>, IRestaurantRepository
     {
-         public async Task<Restaurant> GetRestaurant(Restaurant restaurant)
+        public async Task<Restaurant> GetRestaurant(Restaurant restaurant)
         {
             var result = await GetAsync(restaurant.Id);
 

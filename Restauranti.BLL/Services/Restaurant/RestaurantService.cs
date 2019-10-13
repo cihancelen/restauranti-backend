@@ -1,18 +1,17 @@
-﻿using System;
-using System.Threading.Tasks;
-using Restauranti.DataAccess.Repositories.Concrete;
+﻿using System.Threading.Tasks;
+using Restauranti.DAL.Repositories.Concrete;
 using Restauranti.Dto.Models.Restaurant;
 using Restauranti.Service.Helpers;
-using Restauranti.Entities.Models;
 using System.Collections.Generic;
+using Restauranti.DAL.Repositories.Abstract;
 
-namespace Restauranti.Service.Services.Restaurant
+namespace Restauranti.BLL.Services.Restaurant
 {
     public class RestaurantService: IRestaurantService
     {
-        private readonly RestaurantRepository _restaurantRepository;
+        private readonly IRestaurantRepository _restaurantRepository;
 
-        public RestaurantService(RestaurantRepository restaurantRepository)
+        public RestaurantService(IRestaurantRepository restaurantRepository)
         {
             _restaurantRepository = restaurantRepository;
         }

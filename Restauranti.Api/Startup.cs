@@ -1,17 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Restauranti.Api.Controllers.Restaurant;
-using Restauranti.Service.Services.Restaurant;
+using Restauranti.BLL.Services.Restaurant;
+using Restauranti.DAL;
+using Restauranti.DAL.Repositories.Abstract;
+using Restauranti.DAL.Repositories.Concrete;
 
 namespace Restauranti.Api
 {
@@ -27,9 +23,19 @@ namespace Restauranti.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+
+            services.AddDbContext<RestaurantiContext>(context =>
+                context.UseSqlServer(Configuration.GetConnectionString("BaseConnection"),
+                x => x.MigrationsAssembly("Restauranti.Entities")
+                ));
+
+            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+
+            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+
             services.AddScoped<IRestaurantService, RestaurantService>();
 
-            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

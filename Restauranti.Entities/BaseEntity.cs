@@ -8,6 +8,8 @@ namespace Restauranti.Entities
         public BaseEntity()
         {
             InsertDate = DateTime.Now;
+
+            IsActive = true;
         }
 
         [Key]

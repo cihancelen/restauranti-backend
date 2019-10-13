@@ -1,8 +1,10 @@
 /Users/vu/Projects/Restauranti/Restauranti.Entities/bin/Debug/netcoreapp3.0/Restauranti.Entities.deps.json
 /Users/vu/Projects/Restauranti/Restauranti.Entities/bin/Debug/netcoreapp3.0/Restauranti.Entities.dll
 /Users/vu/Projects/Restauranti/Restauranti.Entities/bin/Debug/netcoreapp3.0/Restauranti.Entities.pdb
-/Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.csprojAssemblyReference.cache
 /Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.AssemblyInfoInputs.cache
 /Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.AssemblyInfo.cs
 /Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.dll
 /Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.pdb
+/Users/vu/Projects/Restauranti/Restauranti.Entities/obj/Debug/netcoreapp3.0/Restauranti.Entities.csprojAssemblyReference.cache
+/Users/vu/Projects/Restauranti/Restauranti.Entities/bin/Debug/netcoreapp3.0/Restauranti.Entities.runtimeconfig.json
+/Users/vu/Projects/Restauranti/Restauranti.Entities/bin/Debug/netcoreapp3.0/Restauranti.Entities.runtimeconfig.dev.json

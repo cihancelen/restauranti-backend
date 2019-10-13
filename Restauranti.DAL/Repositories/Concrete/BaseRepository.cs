@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
-using Restauranti.DataAccess.Helpers;
+using Restauranti.DAL.Helpers;
 using Dapper;
 using Restauranti.Entities;
 
-namespace Restauranti.DataAccess.Repositories.Concrete
+namespace Restauranti.DAL.Repositories.Concrete
 {
     public class BaseRepository<T> where T : BaseEntity
     {

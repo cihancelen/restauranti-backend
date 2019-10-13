@@ -1,0 +1,15 @@
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.BLL.deps.json
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.BLL.dll
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.BLL.pdb
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.DAL.dll
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.Dto.dll
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.Entities.dll
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.Dto.pdb
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.Entities.pdb
+/Users/vu/Projects/Restauranti/Restauranti.BLL/bin/Debug/netcoreapp3.0/Restauranti.DAL.pdb
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.csprojAssemblyReference.cache
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.AssemblyInfoInputs.cache
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.AssemblyInfo.cs
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.csproj.CopyComplete
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.dll
+/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/Debug/netcoreapp3.0/Restauranti.BLL.pdb

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Restauranti.DataAccess.Repositories.Concrete;
 using Restauranti.Entities.Models;
 
-namespace Restauranti.DataAccess.Repositories.Abstract
+namespace Restauranti.DAL.Repositories.Abstract
 {
     public interface IRestaurantRepository
     {

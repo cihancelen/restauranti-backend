@@ -4,10 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Restauranti.DataAccess;
+using Restauranti.DAL;
 
-namespace Restauranti.DataAccess.Migrations
+namespace Restauranti.DAL.Migrations
 {
     [DbContext(typeof(RestaurantiContext))]
     [Migration("20190929201707_AddingUsers")]

@@ -1,11 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Restauranti.Entities.Models
 {
     public class User: BaseEntity
     {
         public string Name { get; set; }
-
-        public string Surname { get; set; }
 
         public string Email { get; set; }
 
@@ -15,9 +15,7 @@ namespace Restauranti.Entities.Models
 
         public string PhoneNumber { get; set; }
 
-        public DateTime Birthday { get; set; }
-
-        public DateTime LastLoginTime { get; set; }
-
+        [ForeignKey("RestaurantId")]
+        public virtual Restaurant Restaurant { get; set; }
     }
 }

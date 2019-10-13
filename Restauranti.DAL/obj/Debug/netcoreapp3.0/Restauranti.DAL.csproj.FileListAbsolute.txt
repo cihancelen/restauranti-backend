@@ -1,0 +1,11 @@
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.DAL.deps.json
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.DAL.dll
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.DAL.pdb
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.Entities.dll
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.Entities.pdb
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.csprojAssemblyReference.cache
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.AssemblyInfoInputs.cache
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.AssemblyInfo.cs
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.csproj.CopyComplete
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.dll
+/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.pdb

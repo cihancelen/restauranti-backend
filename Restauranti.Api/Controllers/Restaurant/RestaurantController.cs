@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Restauranti.Dto.Models.Restaurant;
-using Restauranti.Service.Services.Restaurant;
+using Restauranti.BLL.Services.Restaurant;
 
 namespace Restauranti.Api.Controllers.Restaurant
 {
@@ -24,11 +24,20 @@ namespace Restauranti.Api.Controllers.Restaurant
         [Route("GetName")]
         public JsonResult GetName() => new JsonResult(new { UnitsInStock = "Cihan" });
 
+        [HttpGet]
+        [Route("GetList")]
+        public Task<List<RestaurantDto>> GetList()
+        {
+            List<RestaurantDto> restaurants = new List<RestaurantDto>();
+
+            return Task.Run(() => restaurants);
+        }
+
         [HttpPost]
         [Route("GetRestaurant")]
         public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurant(dto);
 
-        [HttpPost]
+        [HttpGet]
         [Route("GetRestaurants")]
         public async Task<List<RestaurantDto>> GetRestaurants() => await _restaurantService.GetRestaurants();
 
