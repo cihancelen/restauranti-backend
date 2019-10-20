@@ -9,3 +9,5 @@
 /Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.csproj.CopyComplete
 /Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.dll
 /Users/vu/Projects/Restauranti/Restauranti.DAL/obj/Debug/netcoreapp3.0/Restauranti.DAL.pdb
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.DAL.runtimeconfig.json
+/Users/vu/Projects/Restauranti/Restauranti.DAL/bin/Debug/netcoreapp3.0/Restauranti.DAL.runtimeconfig.dev.json

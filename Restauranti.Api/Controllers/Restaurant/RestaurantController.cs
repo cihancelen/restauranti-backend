@@ -21,19 +21,6 @@ namespace Restauranti.Api.Controllers.Restaurant
         }
 
         [HttpGet]
-        [Route("GetName")]
-        public JsonResult GetName() => new JsonResult(new { UnitsInStock = "Cihan" });
-
-        [HttpGet]
-        [Route("GetList")]
-        public Task<List<RestaurantDto>> GetList()
-        {
-            List<RestaurantDto> restaurants = new List<RestaurantDto>();
-
-            return Task.Run(() => restaurants);
-        }
-
-        [HttpPost]
         [Route("GetRestaurant")]
         public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurant(dto);
 

@@ -5,6 +5,7 @@ using Restauranti.Entities.Models.Relations;
 
 namespace Restauranti.Entities.Models
 {
+    [Table("Menus")]
     public class Menu : BaseEntity
     {
         public string Name { get; set; }

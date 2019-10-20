@@ -1,20 +1,9 @@
 ﻿<Properties StartupConfiguration="{40B6699F-A36E-47F9-B408-9AF6DC83583C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Restauranti.Entities/RestaurantiContext.cs">
-    <Files>
-      <File FileName="Restauranti.DAL/RestaurantiContext.cs" Line="18" Column="48" />
-      <File FileName="Restauranti.Entities/RestaurantiContext.cs" Line="39" Column="10" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" expanded="True">
-            <Node name="Restauranti.Api" expanded="True" />
-            <Node name="Restauranti.DAL" expanded="True" />
-            <Node name="Restauranti.Entities" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="RestaurantiContext.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="Restauranti" expanded="True" />
         </State>
       </Pad>
     </Pads>

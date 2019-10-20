@@ -19,7 +19,7 @@ namespace Restauranti.DAL.Repositories.Concrete
 
         public async Task<List<Restaurant>> GetRestaurants()
         {
-            var result = await GetAllAsync(new { IsActive = true });
+            var result = await Connection.QueryAsync<Restaurant>(@"select * from restaurants");
 
             return result.AsList();
         }

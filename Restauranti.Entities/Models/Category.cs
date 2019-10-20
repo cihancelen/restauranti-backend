@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Restauranti.Entities.Models
 {
+    [Table("Categories")]
     public class Category: BaseEntity
     {
         public string Name { get; set; }

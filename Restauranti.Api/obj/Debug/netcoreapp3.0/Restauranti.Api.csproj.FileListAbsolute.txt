@@ -45,3 +45,4 @@
 /Users/vu/Projects/Restauranti/Restauranti.Api/obj/Debug/netcoreapp3.0/Restauranti.Api.csproj.CopyComplete
 /Users/vu/Projects/Restauranti/Restauranti.Api/obj/Debug/netcoreapp3.0/Restauranti.Api.dll
 /Users/vu/Projects/Restauranti/Restauranti.Api/obj/Debug/netcoreapp3.0/Restauranti.Api.pdb
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll

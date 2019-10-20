@@ -26,8 +26,7 @@ namespace Restauranti.Api
             services.AddControllers();
 
             services.AddDbContext<RestaurantiContext>(context =>
-                context.UseSqlServer(Configuration.GetConnectionString("BaseConnection"),
-                x => x.MigrationsAssembly("Restauranti.Entities")
+                context.UseSqlServer(Configuration.GetConnectionString("BaseConnection")
                 ));
 
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
