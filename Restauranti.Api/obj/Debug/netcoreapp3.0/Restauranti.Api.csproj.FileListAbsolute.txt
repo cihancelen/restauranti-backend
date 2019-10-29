@@ -46,3 +46,12 @@
 /Users/vu/Projects/Restauranti/Restauranti.Api/obj/Debug/netcoreapp3.0/Restauranti.Api.dll
 /Users/vu/Projects/Restauranti/Restauranti.Api/obj/Debug/netcoreapp3.0/Restauranti.Api.pdb
 /Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Logging.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Tokens.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/Users/vu/Projects/Restauranti/Restauranti.Api/bin/Debug/netcoreapp3.0/System.IdentityModel.Tokens.Jwt.dll

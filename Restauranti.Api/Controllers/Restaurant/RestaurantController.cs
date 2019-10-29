@@ -4,12 +4,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Restauranti.Dto.Models.Restaurant;
 using Restauranti.BLL.Services.Restaurant;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Restauranti.Api.Controllers.Restaurant
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RestaurantController : ControllerBase
+    public class RestaurantController : BaseController
     {
         private readonly IRestaurantService _restaurantService;
 
@@ -20,12 +21,13 @@ namespace Restauranti.Api.Controllers.Restaurant
             _restaurantService = restaurantService;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("GetRestaurant")]
         public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurant(dto);
 
-        [HttpGet]
+        [HttpPost]
         [Route("GetRestaurants")]
+        [Authorize]
         public async Task<List<RestaurantDto>> GetRestaurants() => await _restaurantService.GetRestaurants();
 
         [HttpPost]

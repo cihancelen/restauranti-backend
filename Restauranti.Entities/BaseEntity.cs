@@ -5,18 +5,13 @@ namespace Restauranti.Entities
 {
     public class BaseEntity
     {
-        public BaseEntity()
-        {
-            InsertDate = DateTime.Now;
-
-            IsActive = true;
-        }
-
         [Key]
         public long Id { get; set; }
 
-        public bool IsActive { get; set; }
+        public Guid Guid { get; set; } = Guid.NewGuid();
 
-        public DateTime InsertDate { get; set; }
+        public bool IsActive { get; set; } = true;
+
+        public DateTime InsertDate { get; set; } = DateTime.Now;
     }
 }
