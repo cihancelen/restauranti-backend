@@ -1,31 +1,9 @@
 ﻿<Properties StartupConfiguration="{40B6699F-A36E-47F9-B408-9AF6DC83583C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Restauranti.Api/Controllers/Restaurant/RestaurantController.cs">
-    <Files>
-      <File FileName="Restauranti.Api/Controllers/Authentication/UserController.cs" Line="92" Column="80" />
-      <File FileName="Restauranti.Api/Controllers/BaseController.cs" Line="1" Column="1" />
-      <File FileName="Restauranti.Api/Startup.cs" Line="64" Column="47" />
-      <File FileName="Restauranti.Api/Controllers/Restaurant/RestaurantController.cs" Line="12" Column="15" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" expanded="True">
-            <Node name="Restauranti.Api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="Authentication" expanded="True" />
-                <Node name="Restaurant" expanded="True">
-                  <Node name="RestaurantController.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="Restauranti.Dto" expanded="True">
-              <Node name="Authentication" expanded="True" />
-            </Node>
-            <Node name="Restauranti.Entities" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="Restauranti" expanded="True" />
         </State>
       </Pad>
     </Pads>
