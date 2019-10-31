@@ -1,15 +1,15 @@
 image: microsoft/dotnet:latest
 
 stages:
-	- build
+  - build
 
 variables:
-	test: "Restauranti.Test"
+  test: "Restauranti.Test"
 
 before_script:
-	- "dotnet restore"
+  - "dotnet restore"
 
 build:
-	stage: build
-	script:
-		- "dotnet-build"
+  stage: build
+  script:
+    - "dotnet-build"
