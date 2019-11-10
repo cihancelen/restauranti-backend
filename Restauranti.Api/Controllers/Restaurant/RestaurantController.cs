@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Restauranti.Dto.Models.Restaurant;
-using Restauranti.BLL.Services.Restaurant;
 using Microsoft.AspNetCore.Authorization;
+using Restauranti.BLL.Services.Abstract.Restaurant;
 
 namespace Restauranti.Api.Controllers.Restaurant
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class RestaurantController : BaseController
@@ -22,17 +23,20 @@ namespace Restauranti.Api.Controllers.Restaurant
         }
 
         [HttpPost]
-        [Route("GetRestaurant")]
-        public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurant(dto);
-
-        [HttpPost]
-        [Route("GetRestaurants")]
-        [Authorize]
-        public async Task<List<RestaurantDto>> GetRestaurants() => await _restaurantService.GetRestaurants();
+        [Route("GetRestaurantById")]
+        public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurantById(dto.Id);
 
         [HttpPost]
         [Route("SaveRestaurant")]
         public async Task<RestaurantDto> SaveRestaurant(RestaurantDto dto) => await _restaurantService.SaveRestaurant(dto);
+
+        [HttpPost]
+        [Route("UpdateRestaurant")]
+        public async Task<RestaurantDto> UpdateRestaurant(RestaurantDto dto) => await _restaurantService.UpdateRestaurant(dto);
+
+        [HttpPost]
+        [Route("RemoveRestaurant")]
+        public async Task<bool> RemoveRestaurant(RestaurantDto dto) => await _restaurantService.RemoveRestaurant(dto);
 
     }
 }

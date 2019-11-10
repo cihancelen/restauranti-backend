@@ -10,8 +10,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Restauranti.Api.Properties;
-using Restauranti.BLL.Services.Restaurant;
+using Restauranti.BLL.Services;
 using Restauranti.DAL;
+using Restauranti.DAL.Repositories;
 using Restauranti.DAL.Repositories.Abstract;
 using Restauranti.DAL.Repositories.Concrete;
 using Restauranti.Entities.Models.Authentication;
@@ -63,18 +64,16 @@ namespace Restauranti.Api
                     {
                         ValidateIssuer = true,
                         ValidateAudience = true,
-                        ValidIssuer = "http://localhost:5001",
-                        ValidAudience = "http://localhost:5001",
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Öldürmeyen acıdır."))
+                        ValidIssuer = Configuration["Authorization:Domain"],
+                        ValidAudience = Configuration["Authorization:Domain"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authorization:IssuerSigningKey"]))
                     };
                 });
 
-            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
-            services.AddScoped<IRestaurantRepository, RestaurantRepository>();
+            var rModule = new RepositoriesModule(services);
 
-            services.AddScoped<IRestaurantService, RestaurantService>();
-
+            var sModule = new ServicesModule(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -22,6 +22,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Helpers\" />
+    <Folder Include="Repositories\Concrete\Restaurant\" />
+    <Folder Include="Repositories\Abstract\Restaurant\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Restauranti.Entities\Restauranti.Entities.csproj" />

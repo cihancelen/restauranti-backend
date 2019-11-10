@@ -3,7 +3,31 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" expanded="True" />
+          <Node name="Restauranti" expanded="True">
+            <Node name="Restauranti.Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Authentication" expanded="True" />
+                <Node name="Restaurant" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Restauranti.BLL" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="ServicesModule.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Restauranti.DAL" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="Abstract" expanded="True">
+                  <Node name="Restaurant" expanded="True" />
+                </Node>
+                <Node name="Concrete" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Restauranti.Dto" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Restauranti.Entities" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
