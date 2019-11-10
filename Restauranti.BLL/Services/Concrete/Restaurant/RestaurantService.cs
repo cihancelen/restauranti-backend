@@ -34,7 +34,7 @@ namespace Restauranti.BLL.Services.Concrete.Restaurant
             return true;
         }
 
-        public async Task<RestaurantDto> SaveRestaurant(RestaurantDto restaurant)
+        public async Task<RestaurantDto> CreateRestaurant(RestaurantDto restaurant)
         {
             var entity = AppMapper.Map<Restauranti.Entities.Models.Restaurant>(restaurant);
 

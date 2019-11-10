@@ -8,5 +8,6 @@
     <Folder Include="Models\" />
     <Folder Include="Models\Restaurant\" />
     <Folder Include="Authentication\" />
+    <Folder Include="Models\Category\" />
   </ItemGroup>
 </Project>

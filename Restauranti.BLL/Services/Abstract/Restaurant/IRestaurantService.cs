@@ -9,7 +9,7 @@ namespace Restauranti.BLL.Services.Abstract.Restaurant
     {
         Task<RestaurantDto> GetRestaurantById(long restaurantId);
 
-        Task<RestaurantDto> SaveRestaurant(RestaurantDto restaurant);
+        Task<RestaurantDto> CreateRestaurant(RestaurantDto restaurant);
 
         Task<RestaurantDto> UpdateRestaurant(RestaurantDto restaurant);
 

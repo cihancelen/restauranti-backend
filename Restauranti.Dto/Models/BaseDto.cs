@@ -5,11 +5,7 @@ namespace Restauranti.Dto.Models
     {
         public BaseDto()
         {
-            Guid = new Guid();
-
-            IsActive = true;
-
-            InsertDate = DateTime.Now;
+            this.Guid = System.Guid.NewGuid();
         }
 
         public Guid? Guid { get; set; }

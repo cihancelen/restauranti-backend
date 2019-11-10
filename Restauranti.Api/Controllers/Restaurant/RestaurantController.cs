@@ -28,7 +28,7 @@ namespace Restauranti.Api.Controllers.Restaurant
 
         [HttpPost]
         [Route("SaveRestaurant")]
-        public async Task<RestaurantDto> SaveRestaurant(RestaurantDto dto) => await _restaurantService.SaveRestaurant(dto);
+        public async Task<RestaurantDto> SaveRestaurant(RestaurantDto dto) => await _restaurantService.CreateRestaurant(dto);
 
         [HttpPost]
         [Route("UpdateRestaurant")]

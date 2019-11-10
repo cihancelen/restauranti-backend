@@ -10,6 +10,7 @@
   <ItemGroup>
     <Folder Include="Controllers\Restaurant\" />
     <Folder Include="Controllers\Authentication\" />
+    <Folder Include="Controllers\Category\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Restauranti.Dto\Restauranti.Dto.csproj">
