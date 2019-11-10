@@ -3,7 +3,29 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node />
+          <Node name="Restauranti" expanded="True">
+            <Node name="Restauranti.Api" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Authentication" expanded="True">
+                  <Node name="UserController.cs" selected="True" />
+                </Node>
+                <Node name="Category" expanded="True" />
+                <Node name="Restaurant" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Restauranti.BLL" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="Concrete" expanded="True">
+                  <Node name="Category" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Restauranti.DAL" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="Concrete" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
