@@ -1,15 +1,16 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restauranti.Entities", "Restauranti.Entities\Restauranti.Entities.csproj", "{96E59A17-8B49-4B2A-8191-B132A0442969}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restauranti.Entities", "Restauranti.Entities\Restauranti.Entities.csproj", "{96E59A17-8B49-4B2A-8191-B132A0442969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restauranti.Dto", "Restauranti.Dto\Restauranti.Dto.csproj", "{7BEBAF72-673C-4965-9952-4F1AF4489B82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restauranti.Dto", "Restauranti.Dto\Restauranti.Dto.csproj", "{7BEBAF72-673C-4965-9952-4F1AF4489B82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restauranti.Api", "Restauranti.Api\Restauranti.Api.csproj", "{40B6699F-A36E-47F9-B408-9AF6DC83583C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restauranti.Api", "Restauranti.Api\Restauranti.Api.csproj", "{40B6699F-A36E-47F9-B408-9AF6DC83583C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restauranti.DAL", "Restauranti.DAL\Restauranti.DAL.csproj", "{3CB60F7B-D8A2-458E-A75A-9E2E61AD3613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restauranti.DAL", "Restauranti.DAL\Restauranti.DAL.csproj", "{3CB60F7B-D8A2-458E-A75A-9E2E61AD3613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restauranti.BLL", "Restauranti.BLL\Restauranti.BLL.csproj", "{23696644-D420-44B5-BDB3-DD18EC4463BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restauranti.BLL", "Restauranti.BLL\Restauranti.BLL.csproj", "{23696644-D420-44B5-BDB3-DD18EC4463BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +38,11 @@ Global
 		{23696644-D420-44B5-BDB3-DD18EC4463BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23696644-D420-44B5-BDB3-DD18EC4463BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23696644-D420-44B5-BDB3-DD18EC4463BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15303503-2B91-4A65-A3DF-C5885341F49D}
 	EndGlobalSection
 EndGlobal
