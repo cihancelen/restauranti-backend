@@ -5,46 +5,68 @@ using System.Threading.Tasks;
 using Restauranti.DAL.Helpers;
 using Dapper;
 using Restauranti.Entities;
+using Restauranti.DAL.Repositories.Abstract;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Restauranti.DAL.Repositories.Concrete
 {
-    public class BaseRepository<T> where T : BaseEntity
+    public class BaseRepository<TEntity> : IBaseRepository<TEntity>
+        where TEntity : class, IEntity, new()
     {
         protected IDbConnection Connection => DatabaseHelper.Connection;
 
-        public T Get(long id)
+        public async Task<TEntity> Get(Expression<Func<TEntity, bool>> filter)
         {
-            return Connection.Get<T>(id);
+            var result = await Connection.GetAsync<TEntity>(filter);
+
+            return result;
         }
 
-        public List<T> GetAll(object conditions)
+        public async Task<List<TEntity>> GetAll(Expression<Func<TEntity, bool>> filter = null)
         {
-            return Connection.GetList<T>(conditions).AsList<T>();
+            var result = (await Connection.GetListAsync<TEntity>(filter));
+
+            return result.AsList();
         }
 
-        public async Task<List<T>> GetAllAsync(object conditions)
+        public async Task<List<TEntity>> GetAll(object filter)
         {
-            return await Task.Run(() => Connection.GetList<T>(conditions).AsList<T>());
+            var result = await Connection.GetListAsync<TEntity>();
+
+            return result.AsList();
         }
 
-        public async Task<T> GetAsync(long id)
+        public async Task<List<TEntity>> GetAllActive(Expression<Func<TEntity, bool>> filter = null)
         {
-            return await Task.Run(() => Connection.Get<T>(id));
+            var result = (await Connection.GetListAsync<TEntity>()).AsList();
+
+            var filtered = result.FindAll(x => x.IsActive);
+
+            return filtered;
         }
 
-        public long Insert(T entity)
+        public async Task<long> Insert(TEntity entity)
         {
-            var result = Connection.Insert<T>(entity);
+            var result = await Connection.InsertAsync<TEntity>(entity);
 
             return (long)result;
         }
 
-        public async Task<long> InsertAsync(T entity)
+        public async Task<bool> Update(TEntity entity)
         {
-            var result = await Connection.InsertAsync<T>(entity);
+            var result = await Connection.UpdateAsync<TEntity>(entity);
 
-            return (long)result;
+            return result > 0;
         }
 
+        public async Task<bool> Delete(TEntity entity)
+        {
+            entity.IsActive = false;
+
+            var result = await Connection.UpdateAsync<TEntity>(entity);
+
+            return result > 0;
+        }
     }
 }

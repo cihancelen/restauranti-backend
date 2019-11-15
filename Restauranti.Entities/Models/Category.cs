@@ -12,6 +12,8 @@ namespace Restauranti.Entities.Models
 
         public string ColourCode { get; set; }
 
+        public long? RestaurantId { get; set; }
+
         [ForeignKey("RestaurantId")]
         public virtual Restaurant Restaurant { get; set; }
     }

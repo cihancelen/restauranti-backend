@@ -3,20 +3,20 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Restauranti.Entities
 {
-    public class BaseEntity
+    public class BaseEntity: IEntity
     {
         public BaseEntity()
         {
-            InsertDate = DateTime.Now;
-
-            IsActive = true;
+            this.Guid = Guid.NewGuid();
         }
 
         [Key]
         public long Id { get; set; }
 
-        public bool IsActive { get; set; }
+        public Guid Guid { get; set; }
 
-        public DateTime InsertDate { get; set; }
+        public bool IsActive { get; set; } = true;
+
+        public DateTime InsertDate { get; set; } = DateTime.Now;
     }
 }

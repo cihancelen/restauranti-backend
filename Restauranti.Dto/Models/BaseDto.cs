@@ -3,7 +3,12 @@ namespace Restauranti.Dto.Models
 {
     public class BaseDto
     {
-        public Guid? guid { get; set; }
+        public BaseDto()
+        {
+            this.Guid = System.Guid.NewGuid();
+        }
+
+        public Guid? Guid { get; set; }
 
         public long Id { get; set; }
 

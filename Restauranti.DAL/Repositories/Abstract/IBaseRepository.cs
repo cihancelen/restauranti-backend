@@ -1,22 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Restauranti.Entities;
 
 namespace Restauranti.DAL.Repositories.Abstract
 {
-    public interface IBaseRepository<T>
+    public interface IBaseRepository<T> where T : class, IEntity, new()
     {
-        T Get(T entity);
+        Task<T> Get(Expression<Func<T, bool>> filter);
 
-        Task<T> GetAsync(T entity);
+        Task<List<T>> GetAll(Expression<Func<T, bool>> filter = null);
 
-        List<T> GetAll(object conditions);
+        Task<List<T>> GetAll(object filter);
 
-        Task<List<T>> GetAllAsync(object conditions);
+        Task<List<T>> GetAllActive(Expression<Func<T, bool>> filter = null);
 
-        long Insert(T entity);
+        Task<long> Insert(T entity);
 
-        Task<long> InsertAsync(T entity);
+        Task<bool> Update(T entity);
+
+        Task<bool> Delete(T entity);
     }
 }

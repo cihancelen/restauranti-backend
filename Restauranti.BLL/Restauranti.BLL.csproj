@@ -7,6 +7,12 @@
   <ItemGroup>
     <Folder Include="Helpers\" />
     <Folder Include="Services\" />
+    <Folder Include="Services\Abstract\" />
+    <Folder Include="Services\Concrete\" />
+    <Folder Include="Services\Abstract\Restaurant\" />
+    <Folder Include="Services\Concrete\Restaurant\" />
+    <Folder Include="Services\Abstract\Category\" />
+    <Folder Include="Services\Concrete\Category\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Restauranti.Dto\Restauranti.Dto.csproj" />

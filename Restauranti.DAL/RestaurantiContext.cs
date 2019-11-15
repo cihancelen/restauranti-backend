@@ -3,24 +3,26 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using Restauranti.Entities.Models;
 using Restauranti.Entities.Models.Relations;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Restauranti.Entities.Models.Authentication;
 
 namespace Restauranti.DAL
 {
-    public class RestaurantiContext : DbContext
+    public class RestaurantiContext : IdentityDbContext<AppUser, AppRole, string>
     {
         public RestaurantiContext(DbContextOptions<RestaurantiContext> dbContextOptions) : base(dbContextOptions)
         {
-            
+
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            base.OnModelCreating(modelBuilder);
+            base.OnModelCreating(builder);
 
-            modelBuilder.Entity<ProductUnits>()
+            builder.Entity<ProductUnits>()
                 .HasKey(x => new { x.ProductId, x.UnitId });
 
-            modelBuilder.Entity<ProductMenus>()
+            builder.Entity<ProductMenus>()
                 .HasKey(x => new { x.ProductId, x.MenuId });
         }
 
