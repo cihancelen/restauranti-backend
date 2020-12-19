@@ -37,7 +37,7 @@ namespace Restauranti.DAL.Repositories.Concrete
             return result.AsList();
         }
 
-        public async Task<List<TEntity>> GetAllActive(Expression<Func<TEntity, bool>> filter = null)
+        public async Task<List<TEntity>> GetAllActive()
         {
             var result = (await Connection.GetListAsync<TEntity>()).AsList();
 

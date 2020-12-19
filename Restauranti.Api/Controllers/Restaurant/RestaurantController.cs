@@ -8,35 +8,16 @@ using Restauranti.BLL.Services.Abstract.Restaurant;
 
 namespace Restauranti.Api.Controllers.Restaurant
 {
-    [Authorize]
-    [ApiController]
-    [Route("api/[controller]")]
-    public class RestaurantController : BaseController
+    public class RestaurantController : BaseController<IRestaurantService, RestaurantDto>
     {
-        private readonly IRestaurantService _restaurantService;
+        public RestaurantController(IRestaurantService service) : base(service)
+        { }
 
-        public RestaurantController(
-            IRestaurantService restaurantService
-            )
+        [Route("test")]
+        [HttpGet]
+        public string Test()
         {
-            _restaurantService = restaurantService;
+            return "Helllo";
         }
-
-        [HttpPost]
-        [Route("GetRestaurantById")]
-        public async Task<RestaurantDto> GetRestaurant(RestaurantDto dto) => await _restaurantService.GetRestaurantById(dto.Id);
-
-        [HttpPost]
-        [Route("SaveRestaurant")]
-        public async Task<RestaurantDto> SaveRestaurant(RestaurantDto dto) => await _restaurantService.CreateRestaurant(dto);
-
-        [HttpPost]
-        [Route("UpdateRestaurant")]
-        public async Task<RestaurantDto> UpdateRestaurant(RestaurantDto dto) => await _restaurantService.UpdateRestaurant(dto);
-
-        [HttpPost]
-        [Route("RemoveRestaurant")]
-        public async Task<bool> RemoveRestaurant(RestaurantDto dto) => await _restaurantService.RemoveRestaurant(dto);
-
     }
 }

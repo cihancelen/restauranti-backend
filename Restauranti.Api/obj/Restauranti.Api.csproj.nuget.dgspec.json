@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj": {}
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/Restauranti.Api.csproj": {}
   },
   "projects": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/Restauranti.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/Restauranti.Api.csproj",
         "projectName": "Restauranti.Api",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Api/Restauranti.Api.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Api/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/Restauranti.Api.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -27,15 +24,16 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {
-              "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj"
               },
-              "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj"
               },
-              "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj"
               }
             }
           }
@@ -48,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -88,24 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj",
         "projectName": "Restauranti.BLL",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -115,15 +111,16 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {
-              "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj"
               },
-              "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj"
               },
-              "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj"
               }
             }
           }
@@ -136,6 +133,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Mapster": {
               "target": "Package",
@@ -157,24 +155,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj",
         "projectName": "Restauranti.DAL",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -184,9 +179,10 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {
-              "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
-                "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj"
+              "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
+                "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj"
               }
             }
           }
@@ -199,6 +195,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -252,24 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj",
         "projectName": "Restauranti.Dto",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -279,6 +273,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -290,6 +285,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -305,24 +301,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj",
         "projectName": "Restauranti.Entities",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -332,6 +325,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -343,6 +337,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -378,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

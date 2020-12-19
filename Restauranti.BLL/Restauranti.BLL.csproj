@@ -13,6 +13,8 @@
     <Folder Include="Services\Concrete\Restaurant\" />
     <Folder Include="Services\Abstract\Category\" />
     <Folder Include="Services\Concrete\Category\" />
+    <Folder Include="Services\Abstract\Base\" />
+    <Folder Include="Services\Concrete\Base\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Restauranti.Dto\Restauranti.Dto.csproj" />

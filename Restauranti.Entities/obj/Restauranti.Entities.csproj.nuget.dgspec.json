@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {}
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {}
   },
   "projects": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj",
         "projectName": "Restauranti.Entities",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -27,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -38,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

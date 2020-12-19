@@ -13,7 +13,7 @@ namespace Restauranti.DAL.Repositories.Concrete.Category
     {
         public async Task<List<Entities.Models.Category>> GetCategoriesByRestaurant(long restaurantId)
         {
-            var categories = (await Connection.QueryAsync<Entities.Models.Category>($@"select * from categories where restaurantId = ${restaurantId}"));
+            var categories = (await Connection.QueryAsync<Entities.Models.Category>($@"select * from categories where restaurantId = {restaurantId}"));
 
             return categories.AsList();
         }

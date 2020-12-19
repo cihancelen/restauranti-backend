@@ -15,7 +15,7 @@ namespace Restauranti.DAL.Repositories.Abstract
 
         Task<List<T>> GetAll(object filter);
 
-        Task<List<T>> GetAllActive(Expression<Func<T, bool>> filter = null);
+        Task<List<T>> GetAllActive();
 
         Task<long> Insert(T entity);
 

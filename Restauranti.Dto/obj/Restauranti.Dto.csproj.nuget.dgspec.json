@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {}
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {}
   },
   "projects": {
-    "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
+    "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
+        "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj",
         "projectName": "Restauranti.Dto",
-        "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj",
-        "packagesPath": "/Users/vu/.nuget/packages/",
-        "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/obj/",
+        "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj",
+        "packagesPath": "/Users/cihancelen/.nuget/packages/",
+        "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/vu/.config/NuGet/NuGet.Config"
+          "/Users/cihancelen/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -27,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -38,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

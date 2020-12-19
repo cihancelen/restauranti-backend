@@ -70,7 +70,6 @@ namespace Restauranti.Api
                     };
                 });
 
-
             var rModule = new RepositoriesModule(services);
 
             var sModule = new ServicesModule(services);

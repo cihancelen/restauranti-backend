@@ -2987,11 +2987,12 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3025,11 +3026,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5753,11 +5755,12 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5847,23 +5850,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/vu/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/cihancelen/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj",
+      "projectUniqueName": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj",
       "projectName": "Restauranti.BLL",
-      "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.BLL/Restauranti.BLL.csproj",
-      "packagesPath": "/Users/vu/.nuget/packages/",
-      "outputPath": "/Users/vu/Projects/Restauranti/Restauranti.BLL/obj/",
+      "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/Restauranti.BLL.csproj",
+      "packagesPath": "/Users/cihancelen/.nuget/packages/",
+      "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.BLL/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/vu/.config/NuGet/NuGet.Config"
+        "/Users/cihancelen/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -5873,15 +5872,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {
-            "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj": {
-              "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.DAL/Restauranti.DAL.csproj"
+            "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj": {
+              "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/Restauranti.DAL.csproj"
             },
-            "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj": {
-              "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Dto/Restauranti.Dto.csproj"
+            "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj": {
+              "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Dto/Restauranti.Dto.csproj"
             },
-            "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj": {
-              "projectPath": "/Users/vu/Projects/Restauranti/Restauranti.Entities/Restauranti.Entities.csproj"
+            "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj": {
+              "projectPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Entities/Restauranti.Entities.csproj"
             }
           }
         }
@@ -5894,6 +5894,7 @@
     },
     "frameworks": {
       "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "Mapster": {
             "target": "Package",
@@ -5915,7 +5916,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

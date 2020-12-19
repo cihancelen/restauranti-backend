@@ -39,6 +39,5 @@ namespace Restauranti.DAL
         public DbSet<RestaurantClient> RestaurantClients { get; set; }
 
         public DbSet<Menu> Menus { get; set; }
-
     }
 }
