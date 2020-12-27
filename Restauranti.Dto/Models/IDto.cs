@@ -10,5 +10,7 @@ namespace Restauranti.Dto.Models
         bool IsActive { get; set; }
 
         DateTime InsertDate { get; set; }
+
+        DateTime ModifiedDate { get; set; }
     }
 }

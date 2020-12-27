@@ -34,7 +34,8 @@ namespace Restauranti.Api
             services.AddControllers();
 
             services.AddDbContext<RestaurantiContext>(context =>
-                context.UseSqlServer(Configuration.GetConnectionString("BaseConnection")
+                context.UseSqlServer(Configuration.GetConnectionString("BaseConnection"),
+                o => o.MigrationsAssembly("Restauranti.DAL")
                 ));
 
             services.AddIdentity<AppUser, AppRole>(_ =>

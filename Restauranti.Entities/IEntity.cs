@@ -10,5 +10,7 @@ namespace Restauranti.Entities
         bool IsActive { get; set; }
 
         DateTime InsertDate { get; set; }
+
+        DateTime ModifiedDate { get; set; }
     }
 }

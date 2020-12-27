@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Restauranti.Dto.Authentication;
 using Restauranti.Entities.Models.Authentication;
@@ -20,16 +21,19 @@ namespace Restauranti.Api.Controllers.Authentication
         private readonly SignInManager<AppUser> _signInManager;
 
         private readonly IUserStore<AppUser> _userStore;
+        private readonly IConfiguration _configuration;
 
         public UserController(
             UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
-            IUserStore<AppUser> userStore
+            IUserStore<AppUser> userStore,
+            IConfiguration configuration
             )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _userStore = userStore;
+            _configuration = configuration;
         }
 
         [HttpPost]
@@ -51,6 +55,11 @@ namespace Restauranti.Api.Controllers.Authentication
             return new JsonResult(result);
         }
 
+        /// <summary>
+        /// TODO: LoginViewModel'de sadece kullanıcı adı ya da email alınacak. Revize edilmesi gerekiyor.
+        /// </summary>
+        /// <param name="loginViewModel"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("SignIn")]
         public async Task<IActionResult> SignIn([FromBody] LoginViewModel loginViewModel)
@@ -79,9 +88,11 @@ namespace Restauranti.Api.Controllers.Authentication
 
                     DateTime expires = DateTime.Now.AddDays(1);
 
+                    var domain = _configuration.GetSection("Authorization").GetSection("Domain").Value;
+ 
                     var token = new JwtSecurityToken(
-                        issuer: "http://localhost:5001",
-                        audience: "http://localhost:5001",
+                        issuer: domain,
+                        audience: domain,
                         expires: expires,
                         claims: claims,
                         signingCredentials: new SigningCredentials(signInKey, SecurityAlgorithms.HmacSha256)

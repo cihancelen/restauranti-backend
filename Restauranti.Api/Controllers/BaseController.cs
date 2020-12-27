@@ -48,7 +48,7 @@ namespace Restauranti.Api.Controllers
 
     public class BaseController<IService, Dto> : BaseController
         where IService : IBaseService<Dto>
-        where Dto : IDto
+        where Dto : BaseDto
     {
         private readonly IService _service;
 
@@ -57,23 +57,19 @@ namespace Restauranti.Api.Controllers
             _service = service;
         }
 
-        [Route("GetById/{id}")]
+        [Route("{id}")]
         [HttpGet]
         public virtual async Task<Dto> GetById(long id) => await _service.GetById(id);
 
-        [Route("GetAll")]
         [HttpGet]
         public virtual async Task<List<Dto>> GetAll() => await _service.GetAll(x => x.IsActive);
 
-        [Route("Create")]
         [HttpPost]
         public virtual async Task<Dto> Create(Dto dto) => await _service.Create(dto);
 
-        [Route("Update")]
         [HttpPut]
         public virtual async Task<Dto> Update(Dto dto) => await _service.Update(dto);
 
-        [Route("Remove")]
         [HttpDelete]
         public virtual async Task<bool> Remove(Dto dto) => await _service.Remove(dto);
     }

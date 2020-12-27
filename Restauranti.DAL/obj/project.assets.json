@@ -5868,7 +5868,7 @@
       "outputPath": "/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cihancelen/.config/NuGet/NuGet.Config"
+        "/Users/cihancelen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -5948,7 +5948,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

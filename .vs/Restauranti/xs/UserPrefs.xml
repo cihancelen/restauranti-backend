@@ -3,18 +3,18 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" expanded="True" />
+          <Node name="Restauranti" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/cihancelen/Desktop/restauranti/restauranti-api/Restauranti.Api/Controllers/BaseController.cs" relfile="Restauranti.Api/Controllers/BaseController.cs" line="66" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects" />
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.Restauranti.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
