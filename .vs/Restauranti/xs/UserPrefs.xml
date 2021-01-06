@@ -1,9 +1,34 @@
 ﻿<Properties StartupConfiguration="{40B6699F-A36E-47F9-B408-9AF6DC83583C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Restauranti.Entities/BaseEntity.cs">
+    <Files>
+      <File FileName="Restauranti.Entities/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="Restauranti.Entities/BaseEntity.cs" Line="15" Column="1" />
+      <File FileName="Restauranti.DAL/Repositories/Concrete/BaseRepository.cs" Line="1" Column="1" />
+      <File FileName="Restauranti.BLL/Services/Concrete/Base/BaseService.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Restauranti" selected="True" />
+          <Node name="Restauranti" expanded="True">
+            <Node name="Restauranti.BLL" expanded="True">
+              <Node name="Helpers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Abstract" expanded="True" />
+                <Node name="Concrete" expanded="True">
+                  <Node name="Base" expanded="True" />
+                  <Node name="Restaurant" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Restauranti.DAL" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="Concrete" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Restauranti.Entities" expanded="True">
+              <Node name="BaseEntity.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
